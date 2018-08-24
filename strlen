@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <string.h>
+
+//Aula 1 Strings e strlen
+
+
+int main(){
+	char s1[80]="te";
+	int t;
+	
+	t = strlen(s1);
+	
+	printf("%d\n", t);
+}
