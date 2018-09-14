@@ -1,1 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
 
+int main (){
+	FILE *arq;
+	char nomeArq[1000];
+	
+	printf ("Digite o nome do arquivo:\n");
+	scanf("%s", nomeArq);
+	arq=fopen (nomeArq, "r+");
+	
+	if(arq == NULL){
+		printf("Arquivo inexistente!\n");
+	}
+		return 1; 
+	
+}
